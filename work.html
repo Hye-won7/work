@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="김혜원">
+    <meta name="keyword" content="부산, 미친막창">
+    <title>Welcome to 미친막창</title>
+    <script src="https://kit.fontawesome.com/26d22373b9.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            font-family: "맑은 고딕", Arial, Helvetica, sans-serif;
+            color: white;
+            line-height: 170%;
+            background-color: black;
+        }
+        header {
+            text-align: center;
+        }
+        header h1{
+            line-height: 40px;
+        }
+        .title {
+            color: red;
+            text-align: center;
+        }
+        nav ul{
+            border-top: 2px solid yellow;
+            border-bottom: 2px solid yellow;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            padding: 15px 70px;
+            letter-spacing: 5px;
+        }
+        nav ul li:hover{
+            background-color: rgb(79, 79, 79);
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: dashed;
+        }
+        .info > img{
+            padding-top: 50px;
+            padding-left: 100px;
+            padding-right: 50px;
+            margin: 0 auto;
+            width: 40%
+        }
+        .info > ul > li{
+            list-style: none;
+            padding-top: 50px;
+            font-size: 23px;
+            text-align: center;
+        }
+        .info{
+            display: inline-flex;
+        }
+        .manage > ul > li{
+            list-style: square;
+            font-size: 20px;
+        }
+        .manage{
+            padding-left: 30px;
+        }
+        table th{
+            width: 80vw;
+            background-color: rgb(46, 0, 199);
+        }
+        table{
+            width: 90%;
+            margin: 0 auto;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .more a{
+            font-size: 2.5em;
+        }
+        .more a:hover{
+            background-color: rgb(79, 79, 79);
+        }
+        body{
+            margin: 0 auto;
+            width: 90vw;
+        }
+        footer{
+            background-color: gray;
+            color: rgb(255, 255, 145);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">미 친 </h1>
+        <h1> 막 창</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">소개</a></li>
+            <li><a href="./photo.html">갤러리</a></li>
+            <li><a href="#">게시판</a></li>
+            <li><a href="#">리뷰</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <div class="info">
+                <img src="../images/bigdata.jpg" alt="사진 없음">
+                <ul>
+                    <li>손님을 속이거나 손님을 이기려고 하면 <br>
+                    일시적으로 수익을 낼 수는 있겠지만 결코 오래가지 않는다.</li>
+                    <li>'장사는 정직한 게임이다'</li>
+                </ul>
+            </div>
+            <div class="manage">
+                <ul>
+                    <li>주소: 부산광역시 중구 흑교로35번길 5</li>
+                    <li>전화번호: 010-****-####</li>
+                    <li>영업시간: 14:30 ~ 01:00</li>
+                </ul>
+            </div>
+            <div class="member">
+                <h2>직원 연락처</h2>
+                <table border="1">
+                    <tr>
+                        <th>직급</th>
+                        <th>이름</th>
+                        <th>연락처</th>
+                    </tr>
+                    <tr>
+                        <td>사장</td>
+                        <td>박인호</td>
+                        <td>010-1234-5678</td>
+                    </tr>
+                    <tr>
+                        <td>점장</td>
+                        <td>이건희</td>
+                        <td>010-8765-4321</td>
+                    </tr>
+                    <tr>
+                        <td>매니저</td>
+                        <td>김혜원</td>
+                        <td>010-7373-8142</td>
+                    </tr>
+                 </table>
+            </div>
+            <div class="more">
+                <h2>더 많은 정보가 알고싶다면?</h2>
+                <a href="https://map.naver.com/v5/search/%EB%AF%B8%EC%B9%9C%EB%A7%89%EC%B0%BD/place/1252664246?placePath=%3Fentry=pll%26from=nx%26fromNxList=true&placeSearchOption=entry=pll%26fromNxList=true&c=14362496.7515117,4177830.3538901,15,0,0,0,dh" target="_blank">미친막창</a>
+            </div>
+        </article>    
+    </section>
+    <footer>
+        copyright@김혜원
+        <div class="sns">
+            <i class="fa-brands fa-instagram">h.__.we</i>
+            <i class="fa-brands fa-instagram">michinmagchang_</i>
+        </div>
+    </footer>
+</body>
+</html>
